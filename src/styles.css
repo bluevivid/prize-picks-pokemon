@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background:red;
+}
+
+.Search {
+  float:left;
+  width: 200px;
+  background-color: orange;
+}
+
+.PokemonCards{
+  float:left;
+  background-color: yellow;
+  width: 525px;
+  overflow: auto;
+}
+
+.PokemonCards > div{
+  background-color: blue;
+  display: block;
+  width: 175px;
+  height: 300px;
+  overflow: none;
+}
+
+.PokemonCards > div:first-of-type{
+  background-color: green;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.ability {
+
+}

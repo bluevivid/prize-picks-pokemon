@@ -10,7 +10,7 @@ export const pokemonApi = createApi({
       providesTags: ['Pokemon']
     }),
     getPokemonByName: builder.query({
-      query: (name: string) => `pokemon/${name}`,
+      query: (name : string) => `pokemon/${name}`,
     }),
   }),
 })

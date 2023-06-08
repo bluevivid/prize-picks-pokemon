@@ -22,9 +22,16 @@ export const Pokemon = ({ name }: { name: string }) => {
             <img src={data.sprites.front_shiny} alt={data.species.name} />
           </div>
           <div>
-            <button onClick={refetch} disabled={isFetching}>
-              {isFetching ? 'Fetching...' : 'Refetch'}
-            </button>
+            Abilities: 
+            {data.abilities.map((ability: any) => (
+              <span className='ability'> {ability.ability.name} </span>
+            ))}
+          </div>
+          <div>
+            Types: 
+            {data.types.map((type: any) => (
+              <span className='type'> {type.type.name} </span>
+            ))}
           </div>
         </>
       ) : (
