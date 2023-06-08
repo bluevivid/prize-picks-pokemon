@@ -24,6 +24,8 @@ https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
 - @reduxjs/toolkit: ^1.9.5
 - Chrome Version 114.0.5735.110 (Official Build) (64-bit)
 
+## NPM Script to start
+
 `npm start`
 
 Runs the app in the development mode.\
