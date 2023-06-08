@@ -1,4 +1,4 @@
-# Getting Started with Pokemon Pokedex
+# PrizePicks Pokemon Pokedex App
 
 NOTE: Create React App instructions follow this section
 
