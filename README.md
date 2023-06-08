@@ -21,7 +21,6 @@ Video: https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
 
 ## Screenshots
 
-<img src="https://https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/45653648-40ee-40da-aba0-18d0def56599" width="100" height="100">
 ![Screenshot1](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/45653648-40ee-40da-aba0-18d0def56599)
 ![Screenshot2](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/82c8fa7c-14ac-444d-b2c3-06a62950b82c)
 ![Screenshot3](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/8c4fb81d-f4f5-4ef7-9251-adde2ed6605d)
