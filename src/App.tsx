@@ -1,13 +1,12 @@
 import {useState, useEffect} from 'react'
 import { Pokemon } from './features/Pokemon'
-import  PokemonList from './features/PokemonList'
+import PokemonList from './features/PokemonList'
 
 export default function App() {
   const [pokemon, setPokemon] = useState<string[]>(['bulbasaur']);
   const [inputText, setInputText] = useState<string>('');
-  const inputHandler = (e: any) => {
-    const lowerCase = e.target.value.toLowerCase();
-    setInputText(lowerCase);
+  const inputHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInputText(e.target.value.toLowerCase());
   };
 
   useEffect(() => {
