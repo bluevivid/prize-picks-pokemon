@@ -21,6 +21,11 @@ Video: https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
 
 ## Screenshots
 
+![Screenshot1](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/45653648-40ee-40da-aba0-18d0def56599)
+![Screenshot2](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/82c8fa7c-14ac-444d-b2c3-06a62950b82c)
+![Screenshot3](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/8c4fb81d-f4f5-4ef7-9251-adde2ed6605d)
+![Screenshot4](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/4a7f1ef5-3658-48a4-a336-539206323755)
+![Screenshot5](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/1a3e868b-6e74-40e7-a87e-97800b39dfd2)
 
 ## System Requirements
 
@@ -30,6 +35,7 @@ Video: https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
 - react-dom: ^18.2.0
 - react-redux: ^8.0.7
 - @reduxjs/toolkit: ^1.9.5
+- Chrome Version 114.0.5735.110 (Official Build) (64-bit)
 
 `npm start`
 
@@ -58,6 +64,7 @@ You will also see any lint errors in the console.
 - There is no Authentication
 - I would like to clean up the TS more, I had to use "any" definition a couple times for time
 - I am using a static data import for populating the search list. I have a Query stubbed out in the reducers, but didn't implement it because I didn't want to introduce risk.
+- I wanted to run virtual machines to test multiple browsers, but decided to punt on that for time. I am using Chrome Version 114.0.5735.110 (Official Build) (64-bit) for my localhost
 
 NOTE: I tried to keep my efforts under 2.5 hours
 
