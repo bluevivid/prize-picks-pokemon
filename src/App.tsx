@@ -4,7 +4,7 @@ import  PokemonList from './features/PokemonList'
 
 export default function App() {
   const [pokemon, setPokemon] = useState<string[]>(['bulbasaur']);
-  const [inputText, setInputText] = useState<string[]>(['']);
+  const [inputText, setInputText] = useState<string>('');
   const inputHandler = (e: any) => {
     const lowerCase = e.target.value.toLowerCase();
     setInputText(lowerCase);
@@ -32,7 +32,13 @@ export default function App() {
       {pokemon.map((name, index) => (
         <Pokemon key={index} name={name} />
       ))}
-      <PokemonList input={''} />
+      
+      <h1>React Search</h1>
+      <div className="search">
+        <input onChange={inputHandler} />
+      </div>
+
+      <PokemonList input={inputText} />
     </div>
   )
 }
