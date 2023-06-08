@@ -4,15 +4,15 @@ NOTE: Create React App instructions follow this section
 
 ## Video 
 
-Video: https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
+https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
 
 ## Screenshots
 
-![Screenshot1](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/45653648-40ee-40da-aba0-18d0def56599)
-![Screenshot2](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/82c8fa7c-14ac-444d-b2c3-06a62950b82c)
-![Screenshot3](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/8c4fb81d-f4f5-4ef7-9251-adde2ed6605d)
-![Screenshot4](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/4a7f1ef5-3658-48a4-a336-539206323755)
-![Screenshot5](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/1a3e868b-6e74-40e7-a87e-97800b39dfd2)
+![Screenshot1](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/625db62f-90a3-4d93-aec6-71e07a332898)
+![Screenshot2](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/03577e62-ba05-4acf-84ef-c0639fa5516a)
+![Screenshot3](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/bc9c5140-c350-41ba-a8f9-75c27752ac27)
+![Screenshot4](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/86435951-6e4d-4b3b-988e-1d2c28778cd4)
+![Screenshot5](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/2dde64b6-d3a2-4f03-8c3d-fb126c2336ad)
 
 ## System Requirements
 
