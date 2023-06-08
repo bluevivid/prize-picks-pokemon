@@ -1,10 +1,16 @@
-import * as React from 'react'
+import {useState, useEffect} from 'react'
 import { Pokemon } from './features/Pokemon'
+import  PokemonList from './features/PokemonList'
 
 export default function App() {
-  const [pokemon, setPokemon] = React.useState<string[]>(['bulbasaur'])
+  const [pokemon, setPokemon] = useState<string[]>(['bulbasaur']);
+  const [inputText, setInputText] = useState<string[]>(['']);
+  const inputHandler = (e: any) => {
+    const lowerCase = e.target.value.toLowerCase();
+    setInputText(lowerCase);
+  };
 
-  React.useEffect(() => {
+  useEffect(() => {
     // Add a duplicate of bulbasaur - notice there is no second request?
     setTimeout(() => {
       setPokemon((prev) => [...prev, 'bulbasaur'])
@@ -26,6 +32,7 @@ export default function App() {
       {pokemon.map((name, index) => (
         <Pokemon key={index} name={name} />
       ))}
+      <PokemonList input={''} />
     </div>
   )
 }
