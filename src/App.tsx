@@ -8,7 +8,8 @@ export default function App() {
   const inputHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputText(e.target.value.toLowerCase());
   };
-
+  const setName = (name: string) => setPokemon((prev) => [...prev, name])
+  
   useEffect(() => {
     // Add a duplicate of bulbasaur - notice there is no second request?
     setTimeout(() => {
@@ -37,7 +38,7 @@ export default function App() {
         <input onChange={inputHandler} />
       </div>
 
-      <PokemonList input={inputText} />
+      <PokemonList input={inputText} setName={setName} />
     </div>
   )
 }

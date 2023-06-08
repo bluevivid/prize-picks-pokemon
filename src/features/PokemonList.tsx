@@ -1,6 +1,6 @@
 import {data} from "../data/pokemonData"
 
-export default function PokemonList({ input }: { input: string }) {
+export default function PokemonList({ input, setName }: { input: string, setName: any }) {
 
   //create a new array by filtering the original array
   const filteredData = data.results.filter((el) => {
@@ -10,7 +10,7 @@ export default function PokemonList({ input }: { input: string }) {
   return (
     <ul>
     {filteredData.map((item) => (
-        <li key={item.url}>{item.name}</li>
+        <li key={item.url} onClick={()=>setName(item.name)}>{item.name}</li>
     ))}
     </ul>
   )
