@@ -22,13 +22,13 @@ export const Pokemon = ({ name, setName }: { name: string, setName: any }) => {
             <img src={data.sprites.front_shiny} alt={data.species.name} onClick={()=>setName(name)} />
           </div>
           <div>
-            Abilities: 
+            <span className='ability'>Abilities: </span> 
             {data.abilities.map((ability: any) => (
-              <span className='ability'> {ability.ability.name} </span>
+              <span> {ability.ability.name} </span>
             ))}
           </div>
           <div>
-            Types: 
+            <span className='ability'>Types: </span> 
             {data.types.map((type: any) => (
               <span className='type'> {type.type.name} </span>
             ))}

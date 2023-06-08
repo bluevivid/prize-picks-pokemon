@@ -22,15 +22,14 @@ export default function App() {
 
   return (
     <div className="App">
+      <h1>Pokemon Pokedex</h1>
       <div className="Search">
-      <h1>Pokemon Search</h1>
-      <div className="search">
-        <input onChange={inputHandler} />
-      </div>
-      <PokemonList input={inputText} setName={setName} />
+        <div className="search">
+          <input onChange={inputHandler} />
+        </div>
+        <PokemonList input={inputText} setName={setName} />
       </div>
       <div className="PokemonCards">
-        <h1>Pokemon Results</h1>
         {pokemon.map((name, index) => (
           <Pokemon key={index} name={name} setName={setName} />
         ))}
