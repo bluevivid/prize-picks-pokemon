@@ -32,7 +32,7 @@ export default function App() {
       <div className="PokemonCards">
         <h1>Pokemon Results</h1>
         {pokemon.map((name, index) => (
-          <Pokemon key={index} name={name} />
+          <Pokemon key={index} name={name} setName={setName} />
         ))}
       </div>
     </div>

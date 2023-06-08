@@ -1,6 +1,6 @@
 import { useGetPokemonByNameQuery } from '../services/pokemon'
 
-export const Pokemon = ({ name }: { name: string }) => {
+export const Pokemon = ({ name, setName }: { name: string, setName: any }) => {
   const {
     data,
     error,
@@ -19,7 +19,7 @@ export const Pokemon = ({ name }: { name: string }) => {
         <>
           <h3>{data.species.name}</h3>
           <div>
-            <img src={data.sprites.front_shiny} alt={data.species.name} />
+            <img src={data.sprites.front_shiny} alt={data.species.name} onClick={()=>setName(name)} />
           </div>
           <div>
             Abilities: 
