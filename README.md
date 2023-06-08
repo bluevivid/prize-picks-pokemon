@@ -2,6 +2,10 @@
 
 NOTE: Create React App instructions follow this section
 
+## Public Hosting
+
+http://prize-pick-pokemon.s3-website-us-east-1.amazonaws.com/
+
 ## Video 
 
 https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
