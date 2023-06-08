@@ -6,19 +6,6 @@ NOTE: Create React App instructions follow this section
 
 Video: https://share.vidyard.com/watch/kSLS1daExKNo9PEhaUQmxY?
 
-<!-- The script tag should live in the head of your page if at all possible -->
-<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
-
-<!-- Put this wherever you would like your player to appear -->
-<img
-  style="width: 100%; margin: auto; display: block;"
-  class="vidyard-player-embed"
-  src="https://play.vidyard.com/kSLS1daExKNo9PEhaUQmxY.jpg"
-  data-uuid="kSLS1daExKNo9PEhaUQmxY"
-  data-v="4"
-  data-type="inline"
-/>
-
 ## Screenshots
 
 ![Screenshot1](https://github.com/bluevivid/prize-picks-pokemon/assets/1273468/45653648-40ee-40da-aba0-18d0def56599)
