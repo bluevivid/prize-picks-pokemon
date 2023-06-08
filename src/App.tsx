@@ -8,24 +8,18 @@ export default function App() {
   const inputHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputText(e.target.value.toLowerCase());
   };
-  const setName = (name: string) => setPokemon((prev) => [...prev, name])
   
-  useEffect(() => {
-    // Add a duplicate of bulbasaur - notice there is no second request?
-    setTimeout(() => {
-      setPokemon((prev) => [...prev, 'bulbasaur'])
-    }, 1500)
-
-    // Add a pokemon that doesn't exist in the cache, will generate a network request
-    setTimeout(() => {
-      setPokemon((prev) => [...prev, 'pikachu'])
-    }, 2000)
-  }, [])
+  const setName = (name: string) => setPokemon( prev => {
+    // Just doing an inner function to check if it is already 
+    // in the array, if so, just bring it to the front
+    const filterPrev = prev.filter(el => el !== name)
+    return [...filterPrev, name]
+  })
 
   return (
     <div className="App">
       <div>
-        <button onClick={() => setPokemon((prev) => [...prev, 'bulbasaur'])}>
+        <button onClick={() => setName( 'bulbasaur')}>
           Add bulbasaur
         </button>
       </div>
